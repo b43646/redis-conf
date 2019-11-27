@@ -1,0 +1,20 @@
+19639:X 27 Nov 10:16:18.384 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19639:X 27 Nov 10:16:18.385 # Redis version=4.0.14, bits=64, commit=00000000, modified=0, pid=19639, just started
+19639:X 27 Nov 10:16:18.385 # Configuration loaded
+19640:X 27 Nov 10:16:18.388 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19640:X 27 Nov 10:16:18.391 * Running mode=sentinel, port=26380.
+19640:X 27 Nov 10:16:18.391 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+19640:X 27 Nov 10:16:18.402 # Sentinel ID is 832ae115410235a1a4551a2b8c665e38d2f3f968
+19640:X 27 Nov 10:16:18.403 # +monitor master mymaster 127.0.0.1 7000 quorum 2
+19640:X 27 Nov 10:16:18.404 * +slave slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+19640:X 27 Nov 10:16:18.406 * +slave slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+19640:X 27 Nov 10:16:19.206 * +sentinel sentinel b61ebc54e7bb7e2df06f206685cd8a7ddbd31620 127.0.0.1 26379 @ mymaster 127.0.0.1 7000
+19640:X 27 Nov 10:16:23.087 * +sentinel sentinel fbde95cf6dc7c884ef4bd8a461090ac41576dff7 127.0.0.1 26381 @ mymaster 127.0.0.1 7000
+19640:X 27 Nov 10:17:50.842 # +sdown master mymaster 127.0.0.1 7000
+19640:X 27 Nov 10:17:50.932 # +new-epoch 1
+19640:X 27 Nov 10:17:50.934 # +vote-for-leader b61ebc54e7bb7e2df06f206685cd8a7ddbd31620 1
+19640:X 27 Nov 10:17:51.501 # +config-update-from sentinel b61ebc54e7bb7e2df06f206685cd8a7ddbd31620 127.0.0.1 26379 @ mymaster 127.0.0.1 7000
+19640:X 27 Nov 10:17:51.501 # +switch-master mymaster 127.0.0.1 7000 127.0.0.1 7002
+19640:X 27 Nov 10:17:51.501 * +slave slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7002
+19640:X 27 Nov 10:17:51.501 * +slave slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7002
+19640:X 27 Nov 10:18:21.524 # +sdown slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7002

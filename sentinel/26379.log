@@ -1,0 +1,48 @@
+19585:X 27 Nov 10:13:14.425 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19585:X 27 Nov 10:13:14.425 # Redis version=4.0.14, bits=64, commit=00000000, modified=0, pid=19585, just started
+19585:X 27 Nov 10:13:14.425 # Configuration loaded
+19585:X 27 Nov 10:13:14.427 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19585:X 27 Nov 10:13:14.428 * Running mode=sentinel, port=26379.
+19585:X 27 Nov 10:13:14.428 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+19585:X 27 Nov 10:13:14.433 # Sentinel ID is c92281024ab173b6f0f188cf30c207c1ba2f27ae
+19585:X 27 Nov 10:13:14.433 # +monitor master mymaster 127.0.0.1 7000 quorum 2
+19585:X 27 Nov 10:13:14.435 * +slave slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+19585:X 27 Nov 10:13:14.436 * +slave slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+19585:signal-handler (1574867624) Received SIGINT scheduling shutdown...
+19585:X 27 Nov 10:13:44.205 # User requested shutdown...
+19585:X 27 Nov 10:13:44.206 # Sentinel is now ready to exit, bye bye...
+19634:X 27 Nov 10:16:15.076 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19634:X 27 Nov 10:16:15.076 # Redis version=4.0.14, bits=64, commit=00000000, modified=0, pid=19634, just started
+19634:X 27 Nov 10:16:15.077 # Configuration loaded
+19635:X 27 Nov 10:16:15.081 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19635:X 27 Nov 10:16:15.084 * Running mode=sentinel, port=26379.
+19635:X 27 Nov 10:16:15.084 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+19635:X 27 Nov 10:16:15.086 # Sentinel ID is b61ebc54e7bb7e2df06f206685cd8a7ddbd31620
+19635:X 27 Nov 10:16:15.102 # +monitor master mymaster 127.0.0.1 7000 quorum 2
+19635:X 27 Nov 10:16:15.103 * +slave slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:16:15.105 * +slave slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:16:20.385 * +sentinel sentinel 832ae115410235a1a4551a2b8c665e38d2f3f968 127.0.0.1 26380 @ mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:16:23.087 * +sentinel sentinel fbde95cf6dc7c884ef4bd8a461090ac41576dff7 127.0.0.1 26381 @ mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:50.876 # +sdown master mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:50.929 # +odown master mymaster 127.0.0.1 7000 #quorum 2/2
+19635:X 27 Nov 10:17:50.929 # +new-epoch 1
+19635:X 27 Nov 10:17:50.929 # +try-failover master mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:50.931 # +vote-for-leader b61ebc54e7bb7e2df06f206685cd8a7ddbd31620 1
+19635:X 27 Nov 10:17:50.934 # 832ae115410235a1a4551a2b8c665e38d2f3f968 voted for b61ebc54e7bb7e2df06f206685cd8a7ddbd31620 1
+19635:X 27 Nov 10:17:50.934 # fbde95cf6dc7c884ef4bd8a461090ac41576dff7 voted for b61ebc54e7bb7e2df06f206685cd8a7ddbd31620 1
+19635:X 27 Nov 10:17:51.032 # +elected-leader master mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:51.032 # +failover-state-select-slave master mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:51.085 # +selected-slave slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:51.085 * +failover-state-send-slaveof-noone slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:51.152 * +failover-state-wait-promotion slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:51.462 # +promoted-slave slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:51.463 # +failover-state-reconf-slaves master mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:51.501 * +slave-reconf-sent slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:52.092 # -odown master mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:52.491 * +slave-reconf-inprog slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:52.491 * +slave-reconf-done slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:52.553 # +failover-end master mymaster 127.0.0.1 7000
+19635:X 27 Nov 10:17:52.553 # +switch-master mymaster 127.0.0.1 7000 127.0.0.1 7002
+19635:X 27 Nov 10:17:52.554 * +slave slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7002
+19635:X 27 Nov 10:17:52.554 * +slave slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7002
+19635:X 27 Nov 10:18:22.557 # +sdown slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7002

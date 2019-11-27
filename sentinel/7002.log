@@ -1,0 +1,117 @@
+19579:C 27 Nov 10:12:40.801 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19579:C 27 Nov 10:12:40.803 # Redis version=4.0.14, bits=64, commit=00000000, modified=0, pid=19579, just started
+19579:C 27 Nov 10:12:40.803 # Configuration loaded
+19580:S 27 Nov 10:12:40.807 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19580:S 27 Nov 10:12:40.810 * Running mode=standalone, port=7002.
+19580:S 27 Nov 10:12:40.810 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+19580:S 27 Nov 10:12:40.810 # Server initialized
+19580:S 27 Nov 10:12:40.810 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+19580:S 27 Nov 10:12:40.810 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+19580:S 27 Nov 10:12:40.810 * DB loaded from disk: 0.000 seconds
+19580:S 27 Nov 10:12:40.810 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+19580:S 27 Nov 10:12:40.811 * Ready to accept connections
+19580:S 27 Nov 10:12:40.811 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:12:40.811 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:12:40.811 * Non blocking connect for SYNC fired the event.
+19580:S 27 Nov 10:12:40.812 * Master replied to PING, replication can continue...
+19580:S 27 Nov 10:12:40.812 * Trying a partial resynchronization (request 0fe364636d124ab79d4741eed4de9b2ff3c58bbe:1).
+19580:S 27 Nov 10:12:40.813 * Successful partial resynchronization with master.
+19580:S 27 Nov 10:12:40.813 * MASTER <-> SLAVE sync: Master accepted a Partial Resynchronization.
+19580:S 27 Nov 10:17:20.814 # Connection with master lost.
+19580:S 27 Nov 10:17:20.815 * Caching the disconnected master state.
+19580:S 27 Nov 10:17:21.627 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:21.627 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:21.627 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:22.634 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:22.634 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:22.635 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:23.641 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:23.641 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:23.642 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:24.649 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:24.650 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:24.650 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:25.655 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:25.656 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:25.656 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:26.661 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:26.662 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:26.662 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:27.667 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:27.668 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:27.668 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:28.675 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:28.675 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:28.675 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:29.687 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:29.688 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:29.688 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:30.698 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:30.698 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:30.698 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:31.711 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:31.711 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:31.711 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:32.722 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:32.722 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:32.722 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:33.731 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:33.731 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:33.731 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:34.741 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:34.741 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:34.742 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:35.750 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:35.750 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:35.750 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:36.760 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:36.760 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:36.761 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:37.773 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:37.773 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:37.774 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:38.779 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:38.779 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:38.779 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:39.786 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:39.786 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:39.786 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:40.795 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:40.795 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:40.795 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:41.802 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:41.802 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:41.803 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:42.812 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:42.813 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:42.813 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:43.820 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:43.821 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:43.821 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:44.825 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:44.826 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:44.826 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:45.832 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:45.832 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:45.832 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:46.842 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:46.843 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:46.844 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:47.851 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:47.851 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:47.851 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:48.861 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:48.861 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:48.862 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:49.871 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:49.871 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:49.871 # Error condition on socket for SYNC: Connection refused
+19580:S 27 Nov 10:17:50.879 * Connecting to MASTER 127.0.0.1:7000
+19580:S 27 Nov 10:17:50.879 * MASTER <-> SLAVE sync started
+19580:S 27 Nov 10:17:50.879 # Error condition on socket for SYNC: Connection refused
+19580:M 27 Nov 10:17:51.152 # Setting secondary replication ID to 0fe364636d124ab79d4741eed4de9b2ff3c58bbe, valid up to offset: 14381. New replication ID is f71ca0f9b484cee77fbc7f53c003637a843f5e7f
+19580:M 27 Nov 10:17:51.152 * Discarding previously cached master state.
+19580:M 27 Nov 10:17:51.152 * MASTER MODE enabled (user request from 'id=6 addr=127.0.0.1:50484 fd=9 name=sentinel-b61ebc54-cmd age=96 idle=0 flags=x db=0 sub=0 psub=0 multi=3 qbuf=0 qbuf-free=32768 obl=36 oll=0 omem=0 events=r cmd=exec')
+19580:M 27 Nov 10:17:51.153 # CONFIG REWRITE executed with success.
+19580:M 27 Nov 10:17:52.446 * Slave 127.0.0.1:7001 asks for synchronization
+19580:M 27 Nov 10:17:52.446 * Partial resynchronization request from 127.0.0.1:7001 accepted. Sending 422 bytes of backlog starting from offset 14381.

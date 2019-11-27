@@ -1,0 +1,22 @@
+19644:X 27 Nov 10:16:21.052 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19644:X 27 Nov 10:16:21.053 # Redis version=4.0.14, bits=64, commit=00000000, modified=0, pid=19644, just started
+19644:X 27 Nov 10:16:21.053 # Configuration loaded
+19645:X 27 Nov 10:16:21.055 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19645:X 27 Nov 10:16:21.056 * Running mode=sentinel, port=26381.
+19645:X 27 Nov 10:16:21.056 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+19645:X 27 Nov 10:16:21.059 # Sentinel ID is fbde95cf6dc7c884ef4bd8a461090ac41576dff7
+19645:X 27 Nov 10:16:21.060 # +monitor master mymaster 127.0.0.1 7000 quorum 2
+19645:X 27 Nov 10:16:21.067 * +slave slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7000
+19645:X 27 Nov 10:16:21.068 * +slave slave 127.0.0.1:7002 127.0.0.1 7002 @ mymaster 127.0.0.1 7000
+19645:X 27 Nov 10:16:21.237 * +sentinel sentinel b61ebc54e7bb7e2df06f206685cd8a7ddbd31620 127.0.0.1 26379 @ mymaster 127.0.0.1 7000
+19645:X 27 Nov 10:16:22.433 * +sentinel sentinel 832ae115410235a1a4551a2b8c665e38d2f3f968 127.0.0.1 26380 @ mymaster 127.0.0.1 7000
+19645:X 27 Nov 10:17:50.930 # +sdown master mymaster 127.0.0.1 7000
+19645:X 27 Nov 10:17:50.933 # +new-epoch 1
+19645:X 27 Nov 10:17:50.934 # +vote-for-leader b61ebc54e7bb7e2df06f206685cd8a7ddbd31620 1
+19645:X 27 Nov 10:17:50.983 # +odown master mymaster 127.0.0.1 7000 #quorum 3/2
+19645:X 27 Nov 10:17:50.983 # Next failover delay: I will not start a failover before Wed Nov 27 10:23:51 2019
+19645:X 27 Nov 10:17:51.502 # +config-update-from sentinel b61ebc54e7bb7e2df06f206685cd8a7ddbd31620 127.0.0.1 26379 @ mymaster 127.0.0.1 7000
+19645:X 27 Nov 10:17:51.502 # +switch-master mymaster 127.0.0.1 7000 127.0.0.1 7002
+19645:X 27 Nov 10:17:51.502 * +slave slave 127.0.0.1:7001 127.0.0.1 7001 @ mymaster 127.0.0.1 7002
+19645:X 27 Nov 10:17:51.502 * +slave slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7002
+19645:X 27 Nov 10:18:21.577 # +sdown slave 127.0.0.1:7000 127.0.0.1 7000 @ mymaster 127.0.0.1 7002

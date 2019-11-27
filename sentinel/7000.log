@@ -1,0 +1,20 @@
+19568:C 27 Nov 10:12:35.141 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19568:C 27 Nov 10:12:35.141 # Redis version=4.0.14, bits=64, commit=00000000, modified=0, pid=19568, just started
+19568:C 27 Nov 10:12:35.141 # Configuration loaded
+19569:M 27 Nov 10:12:35.145 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+19569:M 27 Nov 10:12:35.155 * Running mode=standalone, port=7000.
+19569:M 27 Nov 10:12:35.155 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+19569:M 27 Nov 10:12:35.155 # Server initialized
+19569:M 27 Nov 10:12:35.155 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+19569:M 27 Nov 10:12:35.156 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+19569:M 27 Nov 10:12:35.156 * Ready to accept connections
+19569:M 27 Nov 10:12:38.309 * Slave 127.0.0.1:7001 asks for synchronization
+19569:M 27 Nov 10:12:38.309 * Full resync requested by slave 127.0.0.1:7001
+19569:M 27 Nov 10:12:38.309 * Starting BGSAVE for SYNC with target: disk
+19569:M 27 Nov 10:12:38.309 * Background saving started by pid 19578
+19578:C 27 Nov 10:12:38.317 * DB saved on disk
+19578:C 27 Nov 10:12:38.317 * RDB: 0 MB of memory used by copy-on-write
+19569:M 27 Nov 10:12:38.390 * Background saving terminated with success
+19569:M 27 Nov 10:12:38.391 * Synchronization with slave 127.0.0.1:7001 succeeded
+19569:M 27 Nov 10:12:40.813 * Slave 127.0.0.1:7002 asks for synchronization
+19569:M 27 Nov 10:12:40.813 * Partial resynchronization request from 127.0.0.1:7002 accepted. Sending 0 bytes of backlog starting from offset 1.
